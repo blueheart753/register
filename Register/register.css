@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 420px;
+    height: 580px;
+    margin: auto;
+}
+.register_container {
+    width: 320px;
+    height: 480px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #000;
+}
+.padding {
+    padding: 25px;
+}
+
+.title {
+    padding: 15px 0 0 0;
+}
+
+.title > p {
+    text-align: center;
+    font: 30px;
+    font-weight: 600;
+}
+
+.form_container {
+    width: 220px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.name {
+    margin-top: 15px;
+}
+
+.name_tagP {
+    color: gray;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.login {
+    display: flex;
+    position: relative;
+    left: 85%;
+    top: 5px;
+}
+
+.login > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+.submit {
+    margin-top: 15px;
+}
+
+.submit_buttom {
+    color: white;
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    border-radius: 20px;
+    background: #6c65ec;
+}
+
+.submit_buttom:active {
+    background: #707fea;
+}
+
+#alert_name , #alert_Email , #alert_Password , #alert_Confirm_password {
+    color: red;
+}

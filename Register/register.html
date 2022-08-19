@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Register.js"></script>
+    <link rel="stylesheet" href="register.css">
+    <title>회원가입 페이지</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="padding"></div>
+        <div class="register_container">
+            <div class="title"><p>회원가입</p></div>
+            <div class="form_container">
+                <form class="form" name="register_form" method="post">
+                    <div class="name">
+                        <p class="name_tagP">이름</p>
+                        <input type="text" name="name" placeholder="이름을 입력해주세요" id="name">
+                        <div id="alert_name"></div>
+                    </div>
+                    <div class="name">
+                        <p class="name_tagP">이메일</p>
+                        <input type="text" name="Email" placeholder="Email을 입력해주세요" id="Email">
+                        <div id="alert_Email"></div>
+                    </div>
+                    <div class="name">
+                        <p class="name_tagP">비밀번호</p>
+                        <input type="password" name="Password" placeholder="비밀번호를 입력해주세요" id="Password">
+                        <div id="alert_Password"></div>
+                    </div>
+                    <div class="name">
+                        <p class="name_tagP">비밀번호 확인</p>
+                        <input type="password" name="Confirm_password" placeholder="비밀번호를 확인합니다." id="Confirm_password">
+                        <div id="alert_Confirm_password"></div>
+                    </div>
+                    <div class="login">
+                        <a href="../HTML/loginpage.html">로그인</a>
+                    </div>
+                    <div class="submit">
+                        <button type="button" class="submit_buttom" onclick="register()">회원가입</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!--
+https://velog.io/@___/javascripthtml-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B5%AC%ED%98%84
+http://www.tcpschool.com/html-tag-attrs/form-action 
+http://www.tcpschool.com/html-tag-attrs/form-method-->
